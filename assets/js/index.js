@@ -30,6 +30,24 @@ function mostrar(element){
 
 }
 
+function enviarFormulario(){
+    let nombre = document.getElementById("nombre");
+    let email = document.getElementById("email");
+    let asunto = document.getElementById("asunto");
+    let mensaje = document.getElementById("mensaje");
 
+    let message = nombre.value+'. Formulario enviado correctamente!';
+
+    alert(message);
+
+    limpiarInputs();
+}
+
+function limpiarInputs() {
+    document.getElementById("nombre").value = '';
+    document.getElementById("email").value = '';
+    document.getElementById("asunto").value = '';
+    document.getElementById("mensaje").value = '';
+}
 
 
