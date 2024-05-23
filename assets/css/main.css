@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-header {
+/* header {
     background-color: #333;
     color: white;
     padding: 10px 0;
@@ -17,8 +17,8 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-}
-nav {
+} */
+/* nav {
     background-color: #444;
 }
 nav ul {
@@ -40,7 +40,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #555;
     border-radius: 5px;
-}
+} */
 main {
     flex: 1;
     padding: 20px;
@@ -168,7 +168,7 @@ footer {
     border-radius: 4px;
     box-sizing: border-box;
 }
-.contact-form button {
+/* .contact-form button {
     width: 100%;
     padding: 10px;
     background-color: #3498db;
@@ -179,4 +179,4 @@ footer {
 }
 .contact-form button:hover {
     background-color: #2980b9;
-}
+} */
