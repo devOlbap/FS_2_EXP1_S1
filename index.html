@@ -92,8 +92,8 @@
                         <input type="text" class="form-control" id="username">
                     </div>
                     <div class="col-md-6">
-                        <label for="inputEmail4" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email">
                     </div>
                     <div class="col-md-6">
                         <label for="pass" class="form-label">Contraseña</label>
@@ -108,19 +108,36 @@
                         <input type="date" class="form-control" id="fecha_nacimiento" >
                     </div>
                    
-                   
+                    <hr>
+                    <h4>Dirección de despacho</h4><p>(Opcional)</p>
+                    <div class="col-md-9">
+                        <label for="direccion" class="form-label">Calle</label>
+                        <input type="text" class="form-control" id="direccion" >
+                    </div>
+                    <div class="col-md-3">
+                        <label for="numeracion" class="form-label">Numeracion</label>
+                        <input type="text" class="form-control" id="numeracion" >
+                    </div>
+                    <div class="col-md-9">
+                        <label for="comuna" class="form-label">Comuna</label>
+                        <select id="comuna" class="form-control" >
+                            <option value="" selected disabled>...</option>
+                            <option value="santiago">Santiago</option>
+                        </select>
+                    </div>
+                    <hr>
                     <div class="col-6">
-                        <button type="submit" class="btn btn-primary">Registrar</button>
+                        <button type="button" onclick="registrarUsuario()" class="btn btn-success">Registrar</button>
                     </div>
                     <div class="col-6">
-                        <button class="btn btn-outline-warning" >Limpiar Formulario</button>
+                        <button onclick="limpiarFormulario()" class="btn btn-outline-warning" >Limpiar Formulario</button>
                     </div>
                   </form>
             </div>
         </article>
     </main>
     <footer>
-        <p>Derechos de autor &copy; 2024 Mi Empresa</p>
+        <p>Derechos de autor &copy; 2024 GameCity App</p>
     </footer>
     <div id="loading">
         <div class="spinner"></div>
